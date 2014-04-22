@@ -1,1 +1,20 @@
 http://m.blog.csdn.net/blog/nfbing/19562051
+
+
+
+
+import java.io.IOException;  
+import org.apache.hadoop.conf.Configuration;  
+import org.apache.hadoop.fs.FileSystem;  
+import org.apache.hadoop.fs.Path;  
+      
+public class MakeDir {  
+    public static void main(String[] args) throws IOException {  
+        Configuration conf = new Configuration();  
+        FileSystem fs = FileSystem.get(conf);  
+        Path path = new Path("/user/hadoop/data/20130709");  
+        fs.create(path);  
+        fs.close();  
+    }  
+}  
+
