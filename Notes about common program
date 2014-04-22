@@ -1,7 +1,7 @@
-http://m.blog.csdn.net/blog/nfbing/19562051
+//http://m.blog.csdn.net/blog/nfbing/19562051
 
 
-
+//Create HDFS
 
 import java.io.IOException;  
 import org.apache.hadoop.conf.Configuration;  
