@@ -121,7 +121,7 @@ public class DeleteFile {
 	}
 }
 
-//
+//Get specific file and directories
 import java.io.IOException;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileStatus;
