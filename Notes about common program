@@ -180,6 +180,7 @@ public class FindFile {
 	 * @return 
 	 * @throws
 	 */
+	 
 	public static void getHDFSNode() throws IOException{
 		Configuration conf = new Configuration();
 		FileSystem fs = FileSystem.get(conf);
